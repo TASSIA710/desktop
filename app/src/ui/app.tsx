@@ -404,6 +404,12 @@ export class App extends React.Component<IAppProps, IAppState> {
         return this.testPruneBranches()
       case 'find-text':
         return this.findText()
+      case 'fetch-all':
+        // TODO
+        return
+      case 'pull-all':
+        // TODO
+        return
       default:
         return assertNever(name, `Unknown menu event name: ${name}`)
     }

@@ -114,6 +114,16 @@ export function buildDefaultMenu({
         accelerator: 'CmdOrCtrl+Shift+O',
         click: emit('clone-repository'),
       },
+      separator,
+      {
+        label: 'Fetch all...',
+        id: 'fetch-all',
+        click: emit('fetch-all')
+      },{
+        label: 'Pull all...',
+        id: 'pull-all',
+        click: emit('pull-all')
+      },
     ],
   }
 

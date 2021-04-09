@@ -38,3 +38,5 @@ export type MenuEvent =
   | 'test-prune-branches'
   | 'find-text'
   | 'create-issue-in-repository-on-github'
+  | 'fetch-all'
+  | 'pull-all'
